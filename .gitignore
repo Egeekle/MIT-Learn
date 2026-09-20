@@ -1,0 +1,47 @@
+# Repo policy: the GitHub remote is public and holds ONLY the system architecture
+# (CLAUDE.md, README, .claude/, 00-System/, and the empty folder skeleton).
+# All learning content stays local: PDFs, images, resources, datasets AND the notes themselves
+# (see 00-System/Conventions.md, "Repo scope").
+
+# Content folders: track only the .gitkeep skeleton markers
+01-Inbox/**
+!01-Inbox/.gitkeep
+02-Sources/**
+!02-Sources/**/
+!02-Sources/**/.gitkeep
+10-Courses/**
+!10-Courses/**/
+!10-Courses/**/.gitkeep
+20-Concepts/**
+!20-Concepts/**/
+!20-Concepts/**/.gitkeep
+30-Derivations/**
+!30-Derivations/.gitkeep
+40-Exercises/**
+!40-Exercises/**/
+!40-Exercises/**/.gitkeep
+50-Research/**
+!50-Research/.gitkeep
+60-Experiments/**
+!60-Experiments/.gitkeep
+65-Datasets/**
+!65-Datasets/.gitkeep
+70-Projects/**
+!70-Projects/.gitkeep
+80-Learning/**
+!80-Learning/**/
+!80-Learning/**/.gitkeep
+99-Archive/**
+!99-Archive/**/
+!99-Archive/**/.gitkeep
+
+# Obsidian per-device state
+.obsidian/workspace*
+.obsidian/cache
+.trash/
+
+# Claude Code local state
+.claude/settings.local.json
+
+# OS
+.DS_Store
